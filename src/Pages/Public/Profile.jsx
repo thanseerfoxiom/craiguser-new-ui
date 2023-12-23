@@ -48,12 +48,12 @@ export default function Profile() {
                 </div>
                 {/* /.candidate-info */}
               </div>
-              <div className="col-xl-3 col-md-4 order-xl-4">
+              {/* <div className="col-xl-3 col-md-4 order-xl-4">
                 <div className="d-flex justify-content-md-end">
                   <a href="#" className="save-btn text-center rounded-circle tran3s"><i className="bi bi-heart" /></a>
-                  <a href="#" className="cv-download-btn fw-500 tran3s ms-md-3 sm-mt-20">Download CV</a>
+                  <a href="#" className="cv-download-btn fw-500 tran3s ms-md-3 sm-mt-20"></a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -72,11 +72,11 @@ export default function Profile() {
       <div className="row">
         <div className="col-xxl-9 col-lg-8">
           <div className="candidates-profile-details me-xxl-5 pe-xxl-4">
-            <div className="inner-card mb-65 lg-mb-40">
+            {/* <div className="inner-card mb-65 lg-mb-40">
               <h3 className="title">Overview</h3>
               <p>Hello my name is Ariana Gande Connor and I’m a Financial Supervisor from Netherlands, Rotterdam. In pharetra orci dignissim, blandit mi semper, ultricies diam. Suspendisse malesuada suscipit nunc non volutpat. Sed porta nulla id orci laoreet tempor non consequat enim. Sed vitae aliquam velit. Aliquam Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum, et pulvinar tortor luctus. Suspendisse condimentum lorem ut elementum aliquam. </p> <br />
               <p>Mauris nec erat ut libero vulputate pulvinar. Aliquam ante erat, blandit at pretium et, accumsan ac est. Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum, et pulvinar tortor luctus. Suspendisse condimentum lorem ut elementum aliquam. Mauris nec.</p>
-            </div>
+            </div> */}
             {/* /.inner-card */}
             <h3 className="title">Intro</h3>
             <div className="video-post d-flex align-items-center justify-content-center mt-25 lg-mt-20 mb-75 lg-mb-50">
@@ -142,7 +142,7 @@ export default function Profile() {
               {/* /.time-line-data */}
             </div>
             {/* /.inner-card */}
-            <div className="inner-card">
+            {/* <div className="inner-card">
               <h3 className="title">Portfolio</h3>
               <div className="candidate-portfolio-slider">
                 <div className="item">
@@ -158,7 +158,7 @@ export default function Profile() {
                   <a href="#" className="w-100 d-blok"><img src="images/candidates/CP_02.jpg" alt className="w-100" /></a>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* /.inner-card */}
           </div>
           {/* /.candidates-profile-details */}
