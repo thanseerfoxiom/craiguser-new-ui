@@ -50,6 +50,9 @@ export default function AdminRoute() {
         
         <Outlet/>
         <Footer1/>
+        <button className="scroll-top">
+          <i className="bi bi-arrow-up-short" />
+        </button>
         </div>
     </div>
   )

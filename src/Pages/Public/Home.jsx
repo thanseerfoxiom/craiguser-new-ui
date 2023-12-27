@@ -480,9 +480,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-  <button className="scroll-top">
-    <i className="bi bi-arrow-up-short" />
-  </button>
+  
 
     <Helmet>
       <script src="/assets/vendor/jquery.min.js"></script>
