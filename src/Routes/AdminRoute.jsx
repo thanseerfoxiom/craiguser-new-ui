@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import Header1 from '../Layout/Header1'
 import Footer1 from '../Layout/Footer1'
 import { BasePath } from '../utils/Constants'
@@ -7,13 +7,21 @@ import Header2 from '../Layout/Header2'
 
 export default function AdminRoute() {
   const [mainloading,setMainloading]=useState(true)
+  const location = useLocation();
+  const [headpath,setheadpath]=useState(location.pathname)
   useEffect(() => {
+    
     setMainloading(true)
     return () => clearTimeout(timeoutId);
   }, [])
   const timeoutId = setTimeout(() => {
     setMainloading(false)
   }, 1000);
+  
+  useEffect(() => {
+      setheadpath(location.pathname);
+  }, [location.pathname]);
+
   return (
     <div>
         
@@ -43,7 +51,7 @@ export default function AdminRoute() {
           </div>
         </div>:""}
         {/* Loading theme end */}
-        {window.location.pathname===BasePath?
+        {headpath===BasePath?
         <Header1/>:
         <Header2/>
         }

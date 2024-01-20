@@ -482,7 +482,7 @@ export default function Home() {
   </div>
   
 
-    <Helmet>
+    {/* <Helmet>
       <script src="/assets/vendor/jquery.min.js"></script>
       <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="/assets/vendor/wow/wow.min.js"></script>
@@ -494,7 +494,7 @@ export default function Home() {
       <script src="/assets/vendor/nice-select/jquery.nice-select.min.js"></script>
       <script src="/assets/vendor/validator.js"></script>
       <script src="/assets/js/theme.js"></script>
-    </Helmet>
+    </Helmet> */}
     </>
   )
 }
